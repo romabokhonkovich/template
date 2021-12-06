@@ -1,0 +1,41 @@
+:root{
+ --basic-blue:#252B42;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    color: var(--basic-gray);
+    background-color: #252B42;
+    text-align: center;
+}
+
+body{
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.main-logo{
+    width: 186px;
+    height: 58px;
+    left: 10px;
+    top: 10px;
+}
+ 
+.main-nav-link {
+    text-decoration: none;
+}
+.main-header{
+    display: flex;
+    text-decoration: none;
+    position: static;
+}
